@@ -7,9 +7,9 @@ function preload() {
 // Criar Assets no Game
 function create() {
   //  Frame debug view
-  this.add.grid(0, 0, 512, 32, 32, 32).setOrigin(0, 0).setOutlineStyle(0x00ff00);
+  //this.add.grid(0, 0, 512, 32, 32, 32).setOrigin(0, 0).setOutlineStyle(0x00ff00);
 
-  this.add.image(0, 0, 'monkey', '__BASE').setOrigin(0, 0);
+  //this.add.image(0, 0, 'monkey', '__BASE').setOrigin(0, 0);
 
   this.w = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.W);
   this.a = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.A);
