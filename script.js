@@ -24,9 +24,9 @@ function create() {
     repeat: -1
   });
 
-  const monke = this.add.sprite(300, 150);
-  monke.setScale(4);
-  monke.play('idle');
+  // const monke = this.add.sprite(300, 150);
+  // monke.setScale(4);
+  // monke.play('idle');
 
 
   this.player = this.physics.add
